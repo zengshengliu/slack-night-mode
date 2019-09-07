@@ -141,7 +141,11 @@
 
   &__model {
     &__button {
-      color: $base-font-color;
+      color: $base-link-color;
+
+      &:hover {
+        color: $base-link-color-active;
+      }
     }
 
     &_header {
