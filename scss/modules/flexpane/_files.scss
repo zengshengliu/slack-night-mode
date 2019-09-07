@@ -446,6 +446,11 @@ html.no_touch a.filetype_button_web:hover {
 
   &_container {
     background-color: $color-shade-darkest;
+
+    &--full_width.c-pillow_file_container--focus-within,
+    &--full_width:hover {
+      background-color: $color-shade-darker;
+    }
   }
 }
 

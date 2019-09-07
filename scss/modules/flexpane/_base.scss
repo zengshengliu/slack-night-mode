@@ -130,3 +130,21 @@
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
   background: $color-shade-darker;
 }
+
+.c-action_buttons {
+  &__button {
+    background-color: $color-shade-dark;
+
+    &:hover {
+      .c-action_buttons {
+        &__icon {
+          color: $base-link-color-active;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    color: $base-link-color;
+  }
+}
