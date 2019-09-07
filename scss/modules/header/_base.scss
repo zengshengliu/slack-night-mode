@@ -139,6 +139,12 @@
 .p-classic_nav {
   background: $color-shade-dark;
 
+  &__channel_header {
+    &__subtitle {
+      color: $base-link-color;
+    }
+  }
+
   &__model {
     &__button {
       color: $base-link-color;
