@@ -186,4 +186,11 @@
       background: $color-shade-mid;
     }
   }
+
+  &--outline {
+    &-danger,
+    &-primary {
+      background-color: $color-shade-dark;
+    }
+  }
 }
