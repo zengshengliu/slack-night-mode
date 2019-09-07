@@ -156,7 +156,11 @@
 
     &__icon,
     &__placeholder {
-      color: $base-font-color;
+      color: $base-link-color;
+    }
+
+    &:hover .c-select_button__icon {
+      color: $base-link-color-active;
     }
   }
 
