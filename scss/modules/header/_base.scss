@@ -196,6 +196,13 @@
     &__search {
       border-color: $base-font-color;
 
+      &__clear,
+      &__icon,
+      &__placeholder,
+      &__text {
+        color: $base-link-color;
+      }
+
       &:hover {
         border-color: $color-shade-lightest;
 
@@ -207,9 +214,13 @@
         }
       }
 
-      &__icon,
-      &__placeholder {
-        color: $base-font-color;
+      &:not(.p-classic_nav__right__search--dark):hover {
+        .p-classic_nav__right__search__clear,
+        .p-classic_nav__right__search__icon,
+        .p-classic_nav__right__search__placeholder,
+        .p-classic_nav__right__search__text {
+          color: $base-link-color-active;
+        }
       }
     }
   }
