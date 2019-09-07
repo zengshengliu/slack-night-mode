@@ -176,7 +176,9 @@
 }
 
 .c-button {
-  &--outline {
+  &--outline,
+  &--outline:link,
+  &--outline:visited {
     background-color: $color-shade-dark;
     color: $base-link-color;
 

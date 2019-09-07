@@ -71,7 +71,7 @@
   }
 
   &_space {
-    background-color: $color-shade-dark;
+    background-color: $color-shade-darker;
 
     &__header,
     &__subheader,
@@ -82,12 +82,12 @@
     &_profile {
       &__info,
       &__screenshots {
-        background-color: $color-shade-dark;
+        background-color: $color-shade-darker;
         border-bottom-color: $color-shade-mid;
       }
 
       &__screenshots {
-        background-color: $color-shade-dark;
+        background-color: $color-shade-darker;
         border-bottom-color: $color-shade-mid;
         border-top-color: $color-shade-mid;
       }
