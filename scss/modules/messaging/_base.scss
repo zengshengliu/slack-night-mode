@@ -306,9 +306,9 @@ a:link.c-mrkdwn__user_group--link:hover {
     }
 
     &__label {
-      background: $color-shade-light;
+      background: $color-shade-mid;
       box-shadow: 0 0 2px $color-shadow-medium;
-      color: $color-highlight;
+      color: $base-font-color;
     }
   }
 
