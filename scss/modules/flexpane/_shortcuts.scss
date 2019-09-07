@@ -6,6 +6,10 @@
       border-bottom-color: $color-shade-darkest;
     }
 
+    &_heading {
+      color: $base-font-color;
+    }
+
     &_hoverable .p-shortcuts_flexpane__shortcut_title {
       color: $base-font-color;
     }
