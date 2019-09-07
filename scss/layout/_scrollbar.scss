@@ -60,6 +60,7 @@
 
 .c-scrollbar {
   &__bar {
-    background: $color-shade-mid;
+    background: $color-shade-light;
+    box-shadow: 0 3px 0 $color-base, 0 -3px 0 $color-base;
   }
 }
