@@ -158,7 +158,21 @@
       }
 
       &__info {
-        color: $base-font-color;
+        color: $base-link-color;
+
+        &__members.c-button--focus-visible,
+        &__members,
+        &__pins.c-button--focus-visible,
+        &__pins,
+        &__shared_teams.c-button--focus-visible,
+        &__shared_teams {
+          color: $base-link-color;
+
+          &:focus,
+          &:hover {
+            color: $base-link-color-active;
+          }
+        }
 
         &__topic {
           &:hover {
@@ -190,7 +204,7 @@
 
   &__right {
     &__button {
-      color: $base-font-color;
+      color: $base-link-color;
     }
 
     &_header {
@@ -198,7 +212,7 @@
     }
 
     &__search {
-      border-color: $base-font-color;
+      border-color: $base-link-color;
 
       &__clear,
       &__icon,
@@ -208,7 +222,7 @@
       }
 
       &:hover {
-        border-color: $color-shade-lightest;
+        border-color: $base-link-color-active;
 
         .p-classic_nav__right__search {
           &__icon,
