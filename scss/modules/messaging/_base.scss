@@ -753,3 +753,9 @@ ts-mention {
     box-shadow: 0 0 4px 0 $color-shade-light, 0 0 0 0 $color-shade-lightest;
   }
 }
+
+.p-unreads_view {
+  &__header {
+    background-color: $color-base;
+  }
+}
