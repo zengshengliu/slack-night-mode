@@ -1,0 +1,11 @@
+.c-sk-modal {
+  background-color: $color-base;
+
+  &_content {
+    background-color: $color-base;
+  }
+
+  &_header {
+    background-color: $color-shade-dark;
+  }
+}

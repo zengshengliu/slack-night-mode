@@ -1,4 +1,9 @@
 .c-label {
+  &__optional_tag,
+  &__subtext {
+    color: $base-link-color;
+  }
+
   &__text {
     color: $base-font-color;
   }
