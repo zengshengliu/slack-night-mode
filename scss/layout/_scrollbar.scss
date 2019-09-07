@@ -57,3 +57,9 @@
     box-shadow: 0 3px 0 $color-base, 0 -3px 0 $color-base;
   }
 }
+
+.c-scrollbar {
+  &__bar {
+    background: $color-shade-mid;
+  }
+}
