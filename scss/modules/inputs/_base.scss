@@ -339,9 +339,18 @@ textarea {
 
 .c-filter_input {
   background: $color-shade-light;
+  color: $base-link-color;
 
   &__input[type=text][placeholder] {
     color: $base-font-color;
+  }
+
+  &__reset_button {
+    color: $base-link-color;
+
+    &:hover {
+      color: $base-link-color-active;
+    }
   }
 }
 

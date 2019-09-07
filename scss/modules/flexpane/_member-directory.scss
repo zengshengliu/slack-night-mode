@@ -1,0 +1,11 @@
+.p-member_directory {
+  &__member_row {
+    background-color: $color-base;
+
+    &:focus,
+    &:focus-within,
+    &:hover {
+      background-color: $color-shade-dark;
+    }
+  }
+}
