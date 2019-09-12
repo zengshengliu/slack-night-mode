@@ -54,6 +54,20 @@
   &_input_broadcast_warning {
     background-color: $color-shade-darker;
   }
+
+  &_input {
+    &__preview {
+      background-color: $color-shade-darkest;
+
+      &_metadata {
+        color: $base-link-color;
+      }
+
+      &_subtitle {
+        color: $base-font-color;
+      }
+    }
+  }
 }
 
 .p-message_pane__limited_history_foreword {
