@@ -99,12 +99,40 @@
     color: $base-link-color;
 
     &:hover {
+      background-color: $color-shade-darkest;
       color: $base-link-color-active;
+    }
+  }
+
+  &__content {
+    &--with_frameless_padding:before {
+      background-color: $color-base;
+      box-shadow: 0 1px 0 0 $color-base;
     }
   }
 
   &__header {
     background: $color-base;
+  }
+}
+
+.c-input_character_count__characters-remaining {
+  background-color: $color-shade-darkest;
+  color: $base-link-color;
+}
+
+.p-channel {
+  &_create_modal {
+    &__share {
+      background-color: $color-shade-darkest;
+      color: $base-font-color;
+    }
+  }
+
+  &_name_input {
+    &__prefix_description {
+      color: $base-link-color-active;
+    }
   }
 }
 
